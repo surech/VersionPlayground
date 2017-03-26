@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: CustomerAPI
+liquibase:
+  change-log: classpath:/db/changelog/customer/changelog.xml
